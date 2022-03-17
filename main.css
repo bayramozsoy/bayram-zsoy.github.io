@@ -1,0 +1,27 @@
+body{
+  background-color:lightyellow;
+  text-align: center;
+}
+
+p2{
+  display:inline-block;
+  padding: 10px;
+  margin:20px;
+  color:red
+}
+.t_center{
+  padding: 10px;
+  margin:20px;
+  color: blue;
+  font-size: 40px;
+}
+p3{
+  display:inline-block;
+  color:purple;
+  padding: 10px;
+  margin:20px;
+
+}
+g{
+  background-color:yellow;
+}
