@@ -4,7 +4,6 @@ body{
     
 }
 .bar{
-    background-color: white;
     display: flex;
     
     border-radius: 20px;
