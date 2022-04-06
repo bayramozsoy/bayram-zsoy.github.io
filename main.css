@@ -13,7 +13,7 @@ body{
     align-items: center;
     }
 .left{
-    background-color: white;
+    background-color: yellow;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -60,4 +60,8 @@ p{
     display: flex;
     align-items: left;
     color:red;
+}
+c2{
+    background-size:cover;
+    background-color: green;
 }
