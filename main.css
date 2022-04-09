@@ -1,38 +1,60 @@
 body{
     padding: 10px;
+    display: flex;
+    margin:0;
+    flex-direction: column;
+    justify-content:space-between;
     background-color: antiquewhite;
     
 }
 .bar{
     display: flex;
-    color: green;
+    color: brown;
     border-radius: 20px;
     margin: 5px;
     height: 20vh;
-    justify-content: center;
-    align-items: center;
+  
+    justify-content:flex-start;
+    font-size: 80px;
     }
-.left{
-    background-color: yellow;
+.right{
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-margin: 10px;
-width: 45vw;
+    width: 1000px;
+    height: 1000px;
 }
-.right{
-    background-color: white;
-    border-radius: 20px;
-   
+.left{
+    
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-margin: 10px;
-width: 45vw;
+    justify-content:flex-start;
+    background-color: rgba(0, 0, 0, 0.145);
+}
+.flexs{
+  background-color: brown;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin: 20px;
+    width:350px;
+}
+.flexx{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  width: 200px;
+
+
+}
+.xx{
+  display: flex;
+  justify-content:flex-start;
+  font-size: 19px;
 }
 .flex{
-    border-radius: 20px;
-background-color: beige;
+  border-radius: 20px;
+
 
 margin: 10px;
 padding: 20px;
@@ -42,26 +64,125 @@ justify-content: center;
 align-items: center;
 display: flex   ;
 }
-
- .flex-container{
-    display: flex;
-    width: 95vw;
-    border-radius: 20px;
-    justify-content:space-around;
-    
-    
+.flexxx{
+  display: flex   ;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  color:white;
 }
+
 h1{
-    display: flex;
-    align-items: center;
-    color:red;
+    margin-left: auto;
+    margin-right: auto;
+    color:white;
+   font-size: 35px;
 }
 p{
-    display: flex;
-    align-items: left;
-    color:red;
+    color:orange;
 }
-c2{
-    background-size:cover;
-    background-color: green;
+.bosluk{
+  height: 12px;
+}
+.c1{
+  color:blue;
+  width: 200px;
+  height: 100px;
+  font-size:12px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  
+}
+.c2{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+    width: 200px;
+    height: 300px;
+}
+.c3,.c4{
+  width: 100px;
+  height: 15vh;
+  display: flex;
+  justify-content:space-between;
+}
+.c4,.ln{
+  
+    background-size:100% 100%;
+    width: 80px;
+    height: 50px;
+}
+.a3{
+  display: flex;
+  width: 500px;
+}
+.b1,.b2{
+  width: 100px;
+  height: 100px;
+  
+}
+.b1{
+background-color: blue;  
+}
+.link{
+  width: 200px;
+  height: 15vh;
+  font-size: 15px;
+ 
+  display: flex;
+  justify-content:flex-start;
+}
+p1{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size:20px;
+  color:brown;
+}
+h2{
+  margin-left: auto;
+  margin-right: auto;
+  font-size:45px;
+  color:blue;
+}
+h4{
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  font-size:45px;
+  color:blue;
+}
+h5{
+  height: 0;
+  width: 500px;
+  font-size:30px;
+  color:darkgreen;
+}
+.d1{
+  color:red;
+}
+.egitim{
+  width: 1000px;
+  height: 50px;
+  display: flex;
+  justify-content:space-between;
+
+}
+.e1{
+  background-image: url("photos/fotooo.jpg") ;
+  background-size:100% 100%;
+  width: 125px;
+  height: 140px;
+}
+.e3{
+  width: 100px;
+
+}
+.e4{
+  width: 200px;
+
 }
