@@ -8,11 +8,29 @@
   <script src="https://kit.fontawesome.com/b99e675b6e.js"></script> 
 </head>
 <body>
+  
   <div class="bar">
     <div class="bar e3"></div>
     <div class="bar e1"></div>
     <div class="bar e4"></div>
-    <div class="bar e2">Bayram Özsoy  </div>
+    <div class="bar e2">Bayram Özsoy  
+    <div id="panel"></div>
+    <script>
+      //javascript kodları buraya yazılacak           
+      var btn=document.createElement("button");
+      btn.innerText="Bölüm";
+      
+      btn.style.cssText="color:yellow; background:black; font-size:16px; padding:8px;"; 
+      
+      btn.onclick=function(){
+          window.alert("Computer Engineering");
+      }
+      
+      var panelDiv=document.getElementById("panel");
+      panelDiv.appendChild(btn);
+      
+  </script>
+  </div>
   </div>
     <div class="left">
         <div class="flexs">
